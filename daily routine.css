@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('OIP.jpg');
+    background-size: cover; /* This makes sure the image covers the full screen */
+    background-position: center; /* This centers the image */
+    background-attachment: fixed; /* This keeps the image fixed when scrolling */
+    color: #fff; /* Optional: adjust text color for contrast */
+    }
+    .image{
+        box-shadow: 8px 8px #f0f4f8;
+    }
+
+h1, h2 {
+    color:whitesmoke;
+    text-align: center;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #060707;
+    padding: 20px;
+    color: rgb(19, 2, 2);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(245, 241, 241);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Routine Sections */
+.routine {
+    background-color: rgb(10, 1, 1);
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.routine ul {
+    padding-left: 20px;
+}
+
+.routine ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.routine h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #010303;
+    color: rgb(250, 247, 247);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
